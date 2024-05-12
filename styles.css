@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+/* common styles */
+
+.section-title {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 120px;
+  background-image: url("./images/banner/banner3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner-content {
+  padding-left: 60%;
+  padding-top: 15%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+}
+
+.banner-content-title {
+  font-size: 60px;
+  font-weight: bolder;
+  color: white;
+  margin-bottom: 0;
+}
+
+.banner-content-description {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  color: white;
+}
+.banner-contact-btn {
+  background-color: white;
+  color: #005fac;
+  font-size: large;
+  font-weight: 700;
+  padding: 20px;
+  border: white;
+  border-radius: 8px;
+}
+
+.banner-contact-btn:hover {
+  cursor: pointer;
+  scale: 1.1;
+  transition: ease-in-out 1s;
+}
+
+.my-failures-container {
+  display: flex;
+  gap: 80px;
+  height: 100vh;
+  align-items: center;
+  padding-left: 10%;
+  margin-bottom: 130px;
+}
+
+.my-failure-content {
+  width: 40%;
+}
+
+.my-failure-points-container {
+  margin-top: 16px;
+}
+
+.my-plans-container {
+  height: 80vh;
+  margin-bottom: 130px;
+}
+
+.my-failure-point {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skill-card {
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #f3f3f3;
+  width: 250px;
+}
+
+.skill-card img {
+  display: block;
+  margin: 0 auto;
+  width: 90px;
+  height: 90px;
+}
+
+.skill-title {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.skill-description {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  color: #737272;
+}
+
+.call-now-section {
+  height: 300px;
+
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 130px;
+  border-radius: 10px;
+  background-image: url("./images/gradient1.png"), url("./images/watch.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.call-now-container {
+  width: 40%;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+.call-now-container h3 {
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 24px;
+}
+
+.call-now-container button {
+  padding: 15px 30px;
+}
+
+footer {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  gap: 50px;
+  justify-content: space-evenly;
+}
+
+.footer h2,
+.footer p {
+  color: white;
+  margin-bottom: 24px;
+}
+
+.footer-info {
+  width: 40%;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+footer h2 {
+  font-size: 45px;
+}
+
+.footer-social-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-social-icons img:hover {
+  cursor: pointer;
+}
+
+.footer-subscribe {
+  width: 40%;
+  padding-right: 5%;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+::placeholder {
+  color: white;
+}
